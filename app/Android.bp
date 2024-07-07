@@ -8,7 +8,7 @@ package {
 }
 
 android_app {
-    name: "Jelly",
+    name: "Browser2",
 
     srcs: [
         "src/main/java/**/*.kt",
@@ -20,7 +20,6 @@ android_app {
     product_specific: true,
 
     overrides: [
-        "Browser2",
         "CarHTMLViewer",
     ],
 
